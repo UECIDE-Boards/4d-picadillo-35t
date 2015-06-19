@@ -1,0 +1,55 @@
+Source: 4d-picadillo-35t
+Section: boards
+Priority: extra
+XBSC-Group: 4D Systems
+XBSC-Family: pic32
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: 4d-picadillo-35t
+Architecture: all
+Section: boards
+XBSC-Group: 4D Systems
+Homepage: http://www.4dsystems.com.au/product/Picadillo_35T/
+Depends: chipkit, libdisplaycore-driver-picadillo
+Description: Picadillo-35T
+ The Picadillo-35T is a 3.5” 320x480 resolution (Half VGA) Embedded Display
+ Module with Resistive Touch, featuring the Microchip PIC32MX795F512L 32bit
+ microcontroller and Arduino™/ chipKIT™ style headers for easy attachment of
+ shields, and compatible with UECIDE, MPIDE and MPLAB X Programming IDEs,
+ making this a brilliant display solution with open source software.
+ .
+ The Picadillo-35T was designed with complete system control in mind. It
+ features a 3.5” display along with a ton of GPIO, making it a perfect
+ candidate for system control which demands a GUI or user interface.
+ .
+ The PIC32MX795F512L is a powerful 32bit microcontroller from Microchip,
+ which has 512Kb of Flash and 128Kb of SRAM, runs at 80Mhz and is capable
+ of 105 DMIPS. It features a PMP graphics port which is used to connect the
+ on board 3.5” display, allowing for fast graphics fully controlled by the
+ Users code. The same PIC32 is found on the popular chipKIT Max32 Development
+ Board.
+ .
+ The Picadillo-35T has been designed to be programmed using the UECIDE IDE, which
+ is based on the Arduino IDE however with various enhancements and improvements.
+ It can also be used with MPIDE, or even using Microchip MPLAB X. Using UECIDE or
+ MPIDE, the display module can essentially be treated as if it was a chipKIT MAX32
+ and programmed using the familiar programming language found on the Arduino/chipKIT.
+ .
+ UECIDE can be used to program Arduino boards as well as chipKIT boards, and is
+ compatible with many existing Arduino and chipKIT libraries, allowing easy migration
+ from existing boards!
+ .
+ The Picadillo-35T features an on board FTDI USB to TTL converter for programming and
+ powering the display, along with an ICSP connection for using programmers such as the
+ PICKIT3.
+ .
+ It also features an on board microSD connector, on board audio amplifier and speaker,
+ RTC oscillator, and headers in the layout of the popular chipKIT Uno32.
+ .
+ If you can program the Arduino or the chipKIT range of products, or you want to get
+ started, this product is for you. It features the best of the microcontroller platforms,
+ coupled with a 3.5" Display, Audio, microSD card and the familiar programming language.
+
+
