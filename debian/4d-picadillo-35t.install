@@ -2,4 +2,5 @@ Board_Data.c boards/4DSystems/4d-picadillo-35t
 Board_Defs.h boards/4DSystems/4d-picadillo-35t
 board.txt boards/4DSystems/4d-picadillo-35t
 bootloader.hex boards/4DSystems/4d-picadillo-35t
+chipKIT-application-32MX795F512-nobootloader.ld boards/4DSystems/4d-picadillo-35t
 icons boards/4DSystems/4d-picadillo-35t

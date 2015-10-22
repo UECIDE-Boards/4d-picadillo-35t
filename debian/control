@@ -1,18 +1,17 @@
 Source: 4d-picadillo-35t
 Section: boards
-Priority: extra
-XBSC-Group: 4D Systems
 XBSC-Family: pic32
+Priority: extra
 Maintainer: Matt Jenkins <matt@majenko.co.uk>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 
 Package: 4d-picadillo-35t
-Architecture: all
 Section: boards
+Architecture: all
 XBSC-Group: 4D Systems
-Homepage: http://www.4dsystems.com.au/product/Picadillo_35T/
 Depends: chipkit, libdisplaycore-driver-picadillo
+Homepage: http://www.4dsystems.com.au/product/Picadillo_35T/
 Description: Picadillo-35T
  The Picadillo-35T is a 3.5” 320x480 resolution (Half VGA) Embedded Display
  Module with Resistive Touch, featuring the Microchip PIC32MX795F512L 32bit
@@ -51,5 +50,6 @@ Description: Picadillo-35T
  If you can program the Arduino or the chipKIT range of products, or you want to get
  started, this product is for you. It features the best of the microcontroller platforms,
  coupled with a 3.5" Display, Audio, microSD card and the familiar programming language.
+
 
 
