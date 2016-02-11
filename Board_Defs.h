@@ -229,6 +229,9 @@ extern const uint8_t    digital_pin_to_analog_PGM[];
 
 /* The Digilent DSPI library uses these ports.
 */
+#ifndef _SPI_PORT
+#define _SPI_PORT 1
+#endif
 
 // DSPI0 talks to the SD card direct (SPI2)
 #define	_DSPI0_BASE			_SPI2_BASE_ADDRESS

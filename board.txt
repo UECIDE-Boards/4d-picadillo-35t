@@ -27,6 +27,18 @@ options.usb.withoutSerial.flags=
 options.usb.withSerial.name=Enable USB Serial
 options.usb.withSerial.flags=-D_USE_USB_FOR_SERIAL_
 
+options.spi.name=SPI Port
+options.spi.default=dspi1
+options.spi.purge=true
+options.spi.dspi1.name=6 Pin SPI Header (DSPI1)
+options.spi.dspi1.flags=-D_SPI_PORT=1
+options.spi.dspi2.name=Pins 11-13 (DSPI2)
+options.spi.dspi2.flags=-D_SPI_PORT=2
+options.spi.dspi0.name=SD Card (DSPI0)
+options.spi.dspi0.flags=-D_SPI_PORT=0
+options.spi.dspi3.name=Pins 0-1 (DSPI3)
+options.spi.dspi3.flags=-D_SPI_PORT=3
+
 icon.256=icons/4d-256.png
 icon.128=icons/4d-128.png
 icon.64=icons/4d-64.png
