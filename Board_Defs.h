@@ -19,7 +19,7 @@
 #define	NUM_I2C_PORTS		1
 
 #define NUM_DSPI_PORTS		4
-#define	NUM_DTWI_PORTS		1
+#define	NUM_DTWI_PORTS		3
 
 // Define I/O devices on the board.
 #define	NUM_LED				1
@@ -302,6 +302,24 @@ extern const uint8_t    digital_pin_to_analog_PGM[];
 #define	_DTWI0_SPL		0
 #define _DTWI0_SCL_PIN  54 
 #define _DTWI0_SDA_PIN  53
+
+#define	_DTWI1_BASE		_I2C2_BASE_ADDRESS
+#define	_DTWI1_BUS_IRQ	_I2C2_BUS_IRQ
+#define	_DTWI1_VECTOR	_I2C_2_VECTOR
+#define	_DTWI1_IPL_ISR	IPL3SOFT
+#define	_DTWI1_IPL		3
+#define	_DTWI1_SPL		0
+#define _DTWI1_SCL_PIN  30
+#define _DTWI1_SDA_PIN  3
+
+#define	_DTWI2_BASE		_I2C3_BASE_ADDRESS
+#define	_DTWI2_BUS_IRQ	_I2C3_BUS_IRQ
+#define	_DTWI2_VECTOR	_I2C_3_VECTOR
+#define	_DTWI2_IPL_ISR	IPL3SOFT
+#define	_DTWI2_IPL		3
+#define	_DTWI2_SPL		0
+#define _DTWI2_SCL_PIN  1
+#define _DTWI2_SDA_PIN  0
 
 /* ------------------------------------------------------------ */
 /*					A/D Converter Declarations					*/
